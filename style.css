@@ -12,19 +12,21 @@ body {
 }
 .container {
     width: 350px;
-    height: 450px;
+    height: 530px;
     background-color:  #4c4c4c;
     border: 2px solid  #4c4c4c;
     border-radius: 10px;
     padding: 20px 10px    
 }
-.screen {
+.screen {    
     width: 100%;
     height: 60px;
     margin-bottom: 40px;
     background-color:  #c1dadf;
     border: 1px solid #4c4c4c;
-    border-radius: 5px;    
+    border-radius: 5px; 
+    font-size: 50px;
+    text-align: end;   
 }
 .buttons {
     width: 100%;
@@ -41,9 +43,12 @@ body {
     height: 70px;    
     border: none;
     border-radius: 5px;
-    color:  #d5e3b2;
+    color:  #d5e3b2;    
 }
-.num {
+.zero {
+    flex-basis: 150px;
+}
+.num, .dot, .help {
     background-color: #858584;
 }
 .equal {
